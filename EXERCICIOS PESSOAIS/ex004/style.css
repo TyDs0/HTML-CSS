@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: rgb(134, 166, 20);
+    --cor02: rgb(239, 242, 153);
+    --cor03: rgb(251, 252, 221);
+    --cor04: rgb(90, 115, 2);
+    --cor05: rgb(50, 64, 1);
+    --cor06: rgb(79, 100, 3);
+
+    --fontepadrao: Arial, Verdana, Helvetica, Sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    position: fixed;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.imgmenor{
+    width: 42%;
+    display: inline-block;
+}
+
+body{
+   background-color: var(--cor01);
+   font-family: var(--fontepadrao);
+   position: relative;
+}
+header{
+    background-color: var(--cor04);
+    padding: 20px 20px 0px 20px;
+    margin: -8px -8px 0px -8px;
+    overflow: hidden;
+    width: 100%;
+
+}
+header h1{
+    color: white;
+    font-weight: bold;
+}
+header p{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+header a{
+    text-decoration: none;
+}
+nav{
+    padding: 10px 10px 6px 10px;
+    margin: 5px 5px -5px 5px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: var(--cor03);
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style-type: none;
+    columns: 2;
+    background-color: var(--cor06);
+    padding: 10px 10px 10px 10px;
+    margin: 4px 0px 0px -35px;
+    
+}
+nav a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
+    animation-duration: 1s;
+}
+main{
+    background-color: var(--cor02);
+    padding: 242px 20px 10px 20px;
+    margin: auto;
+}
+main img{
+    margin: auto;
+    width: 100%;
+}
+main p {
+    text-align: justify;
+}
+main ul{
+    text-align: justify;
+}
+section{
+    display: block;
+    position: static;
+    background-color: var(--cor03);
+    padding: 30px 30px;
+    margin: 39px 45px 40px 45px;
+    line-height: 20px;
+}
+section p{
+    text-indent: 25px;
+}
+section picture{
+    display: block;
+    width: 100%;
+}
+footer{
+    background-color: var(--cor05);
+    color: white;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    margin: 0px -8px -8px -8px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    margin: 0px;
+}
+
